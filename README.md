@@ -8,20 +8,8 @@ ember shim for exif-js
 
 * `ember install ember-exif-shim`
 
-0.2.0
+0.2.1
 * use exif-js npm package.
-* exif-tag util
-
-```js
-import queryExifTags from "./utils/exif-tag";
-
-model () {
-  queryExitTags.then(tags => {
-    
-  })
-}
-
-```
 
 # Development
 
