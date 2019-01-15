@@ -8,7 +8,7 @@ ember shim for exif-js
 
 * `ember install ember-exif-shim`
 
-0.2.1
+0.2.2
 * use exif-js npm package.
 
 # Development
