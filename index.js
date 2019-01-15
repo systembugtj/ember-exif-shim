@@ -1,4 +1,3 @@
-/* eslint-env node */
 'use strict';
 var path = require('path');
 var Funnel = require('broccoli-funnel');
@@ -7,7 +6,7 @@ var BroccoliDebug = require('broccoli-debug');
 var fbTransform = require('fastboot-transform');
 
 module.exports = {
-  name: 'ember-exif-shim',
+  name: require('./package').name,
 
   treeForVendor: function(vendorTree) {
     var dir = path.dirname(require.resolve('exif-js'));
@@ -38,5 +37,4 @@ module.exports = {
     app.import('vendor/exif-js/exif.js');
     app.import('vendor/exif-shim.js');
   }
-
 };
