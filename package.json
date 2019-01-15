@@ -1,6 +1,6 @@
 {
   "name": "ember-exif-shim",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Exif-js Ember Addon",
   "keywords": [
     "ember-addon"
