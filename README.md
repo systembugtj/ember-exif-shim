@@ -1,5 +1,7 @@
 # ember-exif-shim
 
+0.2.2
+
 [![Build Status](https://travis-ci.org/systembugtj/ember-exif-shim.svg?branch=master)](https://travis-ci.org/systembugtj/ember-exif-shim)
 [![npm version](https://badge.fury.io/js/ember-exif-shim.svg)](https://badge.fury.io/js/ember-exif-shim)
 [![Ember Observer Score](https://emberobserver.com/badges/ember-exif-shim.svg)](https://emberobserver.com/addons/ember-exif-shim)
@@ -8,8 +10,11 @@ ember shim for exif-js
 
 * `ember install ember-exif-shim`
 
-0.2.2
+
 * use exif-js npm package.
+* Ember.js v3.12 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
 
 # Development
 
@@ -30,7 +35,18 @@ ember shim for exif-js
 * `ember test`
 * `ember test --server`
 
+<<<<<<< HEAD
 ## Building
+=======
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+License
+------------------------------------------------------------------------------
+>>>>>>> 9d14c60... v3.7.1...v3.20.0
 
 * `ember build`
 
