@@ -12,9 +12,9 @@ ember shim for exif-js
 
 
 * use exif-js npm package.
-* Ember.js v3.12 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
+* Ember.js v3.20 or above
+* Ember CLI v3.20 or above
+* Node.js v12 or above
 
 # Development
 
@@ -35,18 +35,15 @@ ember shim for exif-js
 * `ember test`
 * `ember test --server`
 
-<<<<<<< HEAD
 ## Building
-=======
-Contributing
+### Contributing
 ------------------------------------------------------------------------------
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
 
-License
+### License
 ------------------------------------------------------------------------------
->>>>>>> 9d14c60... v3.7.1...v3.20.0
 
 * `ember build`
 
