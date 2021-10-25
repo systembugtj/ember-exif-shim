@@ -1,9 +1,12 @@
-<<<<<<< HEAD
-{{outlet}}
-=======
-{{page-title "Dummy"}}
+{{page-title "Exif Tag"}}
 
-<h2 id="title">Welcome to Ember</h2>
->>>>>>> 890358a (v3.20.0...v3.28.3)
+<h2 id="title">EXIF tag from a image</h2>
 
-{{this.model}}
+<JsonViewer
+  @json={{this.model}}
+  @options={{hash
+    expandedIcon="+"
+    collapsedIcon="-"
+    collapseDepth=5
+  }}
+/>
