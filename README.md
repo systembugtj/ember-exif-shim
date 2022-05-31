@@ -10,20 +10,19 @@ ember shim for exif-js
 
 [DEMO](https://www.systembug.me/ember-exif-shim/)
 
-- `ember install ember-exif-shim`
+## Compatibility
 
-- use exif-js npm package.
-- Ember.js v3.20 or above
-- Ember CLI v3.20 or above
-- Node.js v12 or above
-
-# Development
+* Ember.js v3.24 or above
+* Ember CLI v3.24 or above
+* Node.js v12 or above
 
 ## Installation
 
-- `git clone <repository-url>` this repository
-- `cd ember-exif-shim`
-- `npm install`
+```shell
+ember install ember-exif-shim
+```
+
+## Usage
 
 ## Running
 
@@ -38,16 +37,12 @@ ember shim for exif-js
 
 ## Building
 
-### Contributing
+- `ember build`
 
----
+## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
 ### License
-
----
-
-- `ember build`
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
